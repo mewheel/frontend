@@ -1,0 +1,26 @@
+.post-list {
+
+}
+
+.post-list__post {
+  padding: $space-3x;
+  margin-bottom: $space-4x;
+  border: 1px solid $color__gray--lighter;
+  background-color: #fff;
+}
+
+.post {
+  font-family: 'Merriweather', serif;
+}
+
+.post--full {
+  font-size: $font__size--large;
+  line-height: $line-height--large;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post__meta {
+  font-size: $font__size--small;
+  color: $font__color--muted;
+}

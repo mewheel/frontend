@@ -1,0 +1,24 @@
+.form-group {
+  margin-bottom: $space-2x;
+}
+
+.form-group__input {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid $color__gray--light;
+  padding: $space;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.form-group__input--textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+.form-group__label {
+  font-size: $font__size--small;
+}

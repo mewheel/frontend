@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color__primary-1;
+  padding: 0 15px;
+}
+
+.navbar__main,
+.navbar__aside {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  margin-right: $space-4x;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fff;
+}
+
+.navbar__nav {
+}
+
+.navbar__nav-item {
+  display: inline-block;
+  padding: $space-3x $space;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+$color__gray: #999;
+$color__gray--light: lighten($color__gray, 10%);
+$color__gray--lighter: lighten($color__gray, 20%);
+$color__gray--dark: darken($color__gray, 10%);
+
+$color__primary-1: #4AA8C0;
+$color__primary-1--dark: darken($color__primary-1, 10%);
+
+$color__primary-2: #156073;
+
+
+$font__size: 15px;
+$font__size--large: 18px;
+$font__size__small: 12px;
+$font__color: rgba(#000, 0.7);
+$font__color--muted: rgba(#000, 0.3);
+
+$line-height: 1.6em;
+$line-height--large: 1.9em;
+
+$space: 8px;
+$space-2x: $space * 2;
+$space-3x: $space * 3;
+$space-4x: $space * 4;
